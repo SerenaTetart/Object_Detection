@@ -19,7 +19,7 @@ But if you want to export and use the model you need to install manually Tensorf
 
 ### Training the model:
 
-1. First open the file ObjectDetection.ipynb of this repository on Collab.
+1. First open the file ObjectDetection.ipynb of this repository in Collab.
 2. Then you need images and annotations in Pascal VOC format (xml files). *(You can use <a href=https://github.com/Serenalyw/FastAnnotation>FastAnnotations</a>, a framework that I made :smile:)*
 3. Once you have them simply put them in a zip file named data.zip, don't bother making a train/test or annotation folder everything will be handled automatically to make the process easier.
 4. And now you can upload data.zip to your Drive.
