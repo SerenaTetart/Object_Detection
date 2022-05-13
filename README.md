@@ -15,17 +15,17 @@ For the first project you only need a Google account with <a href=https://colab.
 
 But if you want to export and use the model you need to install manually Tensorflow Object Detection, you'll find a good tutorial on this <a href=https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html>link</a>
 
-## Project 1 - Object Detection using Efficientdet
+## Project 1 - Object Detection using EfficientDet
 
 ### Training the model:
 
 1. First open the file ObjectDetection.ipynb of this repository on Collab.
-2. Then you need images and annotations in Pascal VOC format (xml files).
+2. Then you need images and annotations in Pascal VOC format (xml files). *(You can use <a href=https://github.com/Serenalyw/FastAnnotation>FastAnnotations</a>, a framework that I made :smile:)*
 3. Once you have them simply put them in a zip file named data.zip, don't bother making a train/test or annotation folder everything will be handled automatically to make the process easier.
 4. And now you can upload data.zip to your Drive.
 5. Finally just run the code, it will train an EfficientDet0 model on the data you sent to Drive.
 
-If you want to change the model to let's say Efficientdet5 or Mobilenet-SSD you need to download the model from <a href=https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md>Tensorflow Object Detection Zoo</a>, for instance the changes needed for EfficientDet5 will be:
+If you want to change the model to let's say EfficientDet5 or Mobilenet-SSD you need to download the model from <a href=https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md>Tensorflow Object Detection Zoo</a>, for instance the changes needed for EfficientDet5 will be:
 
 ```
 !wget http://download.tensorflow.org/models/object_detection/tf2/20200711/efficientdet_d0_coco17_tpu-32.tar.gz
