@@ -61,9 +61,6 @@ And these are some test made with the new model trained:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/168273236-32152f5e-cbaa-438b-ae8b-32c033e7f269.PNG">
-</p>
-
-<p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/168273292-b2063602-d790-492a-9493-1889c1e412e5.png">
 </p>
 
