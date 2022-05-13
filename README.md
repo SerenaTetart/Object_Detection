@@ -4,6 +4,8 @@
 * [General info](#general-info)
 * [Requirements](#requirements)
 * [Project 1: Object Detection using Efficientdet](#project-1---object-detection-using-efficientdet)
+   * [Training the model](#training-the-model)
+   * [Testing locally the model](#testing-locally-the-model)
 
 ## General info
 In this repository you will learn the basics for detecting objects and keypoints on images using models such as: EfficientDet, Mobilenet-SSD or even YoloV4...
