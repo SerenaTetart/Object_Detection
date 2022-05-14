@@ -5,9 +5,9 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
-PATH_TO_TEST_IMAGES = ''
-PATH_TO_SAVED_MODEL = ''
-PATH_TO_LABEL_MAP = ''
+PATH_TO_TEST_IMAGES = ''    #the directory where your test images are
+PATH_TO_SAVED_MODEL = ''    #the directory saved_model
+PATH_TO_LABEL_MAP = ''      #label_map.pbtxt
 
 def load_image_into_numpy_array(path):
   img_data = tf.io.gfile.GFile(path, 'rb').read()
