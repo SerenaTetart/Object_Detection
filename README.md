@@ -83,7 +83,7 @@ In order to use the model locally there are a few steps:
 </p>
 
 
-#### III - Run inference.py or your custom code and enjoy:
+#### III - Modify the PATH variables and Run inference.py or your custom code and enjoy:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/168441339-06cdfebf-aa49-4af0-a04a-fe126e1b33bb.png">
