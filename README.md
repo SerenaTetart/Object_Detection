@@ -11,7 +11,7 @@
 In this repository you will learn the basics for detecting objects and keypoints on images using models such as: EfficientDet, Mobilenet-SSD or even YoloV4...
 
 ## Requirements
-For the first project you only need a Google account with <a href=https://colab.research.google.com/>Colab</a> and <a href=https://drive.google.com/drive/my-drive>Drive</a>. *(I am using Collab pro for the training)*
+For the first project you only need a Google account with <a href=https://colab.research.google.com/>Colab</a> and <a href=https://drive.google.com/drive/my-drive>Drive</a>. *(I am using Colab pro for the training)*
 
 But if you want to train locally you need to install manually Tensorflow Object Detection, you'll find a good tutorial on this <a href=https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html>link</a>
 
