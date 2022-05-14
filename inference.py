@@ -5,9 +5,9 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
-PATH_TO_TEST_IMAGES = ''    #the directory where your test images are
-PATH_TO_SAVED_MODEL = ''    #the directory saved_model
-PATH_TO_LABEL_MAP = ''      #label_map.pbtxt
+PATH_TO_TEST_IMAGES = './images/test'                    #the directory where your test images are
+PATH_TO_SAVED_MODEL = './saved_model'                    #the directory saved_model
+PATH_TO_LABEL_MAP = './saved_model/label_map.pbtxt'      #label_map.pbtxt
 
 def load_image_into_numpy_array(path):
   img_data = tf.io.gfile.GFile(path, 'rb').read()
@@ -54,5 +54,6 @@ for file in os.listdir(PATH_TO_TEST_IMAGES):
         xmax = output_dict['detection_boxes'][i][3]*image_np.shape[1]
         ymax = output_dict['detection_boxes'][i][2]*image_np.shape[0]
         box = [xmin, ymin, xmax, ymax]
-        classe = listClass[output_dict['detection_classes'][i]]
+        classe = listClass[output_dict['detection_classes'][i]-1]
         print(box, classe)
+tmp = input('Program paused...')
