@@ -90,4 +90,4 @@ In order to use the model locally there are a few steps:
 <img src="https://user-images.githubusercontent.com/65224852/168441339-06cdfebf-aa49-4af0-a04a-fe126e1b33bb.png">
 </p>
 
-## Project 2: Segmentation using U-Net
+## Project 2 - Segmentation using U-Net
