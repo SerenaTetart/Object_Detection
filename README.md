@@ -15,7 +15,7 @@ For the first project you only need a Google account with <a href=https://colab.
 
 But if you want to train locally you need to install manually Tensorflow Object Detection, you'll find a good tutorial on this <a href=https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html>link</a>
 
-For the inference you only need Tensorflow, inference.py shared in this repository, the directory *saved_model* (you can automatically download it by running the code in colab) and the file: *label_map.pbtxt*.
+For the inference you only need Tensorflow, **inference.py** shared in this repository, the directory **saved_model** (you can automatically download it by running the code in colab) and the file: **label_map.pbtxt**.
 
 ## Project 1 - Object Detection using EfficientDet
 
