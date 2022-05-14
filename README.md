@@ -8,7 +8,7 @@
    * [Testing locally the model](#testing-locally-the-model)
 
 ## General info
-In this repository you will learn the basics for detecting objects and keypoints on images using models such as: EfficientDet, Mobilenet-SSD or even YoloV4...
+In this repository you will learn the basics for detecting objects, keypoints or even making segmentation on images using models such as: EfficientDet, Mobilenet-SSD, U-Net...
 
 ## Requirements
 For the first project you only need a Google account with <a href=https://colab.research.google.com/>Colab</a> and <a href=https://drive.google.com/drive/my-drive>Drive</a>. *(I am using Colab pro for the training)*
