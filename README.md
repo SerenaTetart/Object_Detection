@@ -67,3 +67,11 @@ And these are some test made with the new model trained:
 </p>
 
 ### Testing locally the model:
+
+In order to use the model locally there are a few steps:
+
+I- Download the trained model:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/168441258-50c0e90a-cefb-4d54-94ba-9248d61d4b47.PNG">
+</p>
