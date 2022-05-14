@@ -43,7 +43,7 @@ model = tf.saved_model.load('/saved_model')
 
 for file in os.listdir('/test'):
   if(os.path.splitext(file)[1] != '.xml'):
-    image_np = load_image_into_numpy_array('/content/gdrive/MyDrive/customModel/data/test/'+file)
+    image_np = load_image_into_numpy_array('/test/'+file)
     output_dict = run_inference_for_single_image(model, image_np)
     for i in range(len(output_dict['detection_boxes'])):
       if(output_dict['detection_scores'][i] > 0.5):
