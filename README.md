@@ -6,6 +6,7 @@
 * [Project 1: Object Detection using Efficientdet](#project-1---object-detection-using-efficientdet)
    * [Training the model](#training-the-model)
    * [Testing locally the model](#testing-locally-the-model)
+* [Project 2: Segmentation using U-Net](#project-2---segmentation-using-u---net)
 
 ## General info
 In this repository you will learn the basics for detecting objects, keypoints or even making segmentation on images using models such as: EfficientDet, Mobilenet-SSD, U-Net...
@@ -88,3 +89,5 @@ In order to use the model locally there are a few steps:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/168441339-06cdfebf-aa49-4af0-a04a-fe126e1b33bb.png">
 </p>
+
+## Project 2: Segmentation using U-Net
