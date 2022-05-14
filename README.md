@@ -70,8 +70,21 @@ And these are some test made with the new model trained:
 
 In order to use the model locally there are a few steps:
 
-I- Download the trained model:
+I- Download the trained model by running this code in the notebook in colab:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65224852/168441258-50c0e90a-cefb-4d54-94ba-9248d61d4b47.PNG">
+</p>
+
+II - Copy and paste where you want the files:
+
+<p align="center"> <i>this is where your files are downloaded</i>
+<img src="https://user-images.githubusercontent.com/65224852/168441338-e755f771-4e68-49e6-ab82-2695a093de69.PNG">
+</p>
+
+
+II - Run inference.py or your custom code and enjoy:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/168441339-06cdfebf-aa49-4af0-a04a-fe126e1b33bb.png">
 </p>
