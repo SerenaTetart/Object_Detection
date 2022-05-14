@@ -2,10 +2,11 @@ import io
 import os
 import re
 import numpy as np
-
 from PIL import Image
-
 import tensorflow as tf
+
+PATH_TO_TEST_IMAGES = ''
+PATH_TO_SAVED_MODEL = ''
 
 def load_image_into_numpy_array(path):
   img_data = tf.io.gfile.GFile(path, 'rb').read()
@@ -39,11 +40,11 @@ with open('label_map.pbtxt') as file:
     listClass.append(txt[indice+7:ind-2])
     
 tf.keras.backend.clear_session()
-model = tf.saved_model.load('/saved_model')
+model = tf.saved_model.load(PATH_TO_SAVED_MODEL)
 
-for file in os.listdir('/test'):
+for file in os.listdir(PATH_TO_TEST_IMAGES):
   if(os.path.splitext(file)[1] != '.xml'):
-    image_np = load_image_into_numpy_array('/test/'+file)
+    image_np = load_image_into_numpy_array(PATH_TO_TEST_IMAGES+'/'+file)
     output_dict = run_inference_for_single_image(model, image_np)
     for i in range(len(output_dict['detection_boxes'])):
       if(output_dict['detection_scores'][i] > 0.5):
