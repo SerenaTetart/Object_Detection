@@ -7,6 +7,7 @@ import tensorflow as tf
 
 PATH_TO_TEST_IMAGES = ''
 PATH_TO_SAVED_MODEL = ''
+PATH_TO_LABEL_MAP = ''
 
 def load_image_into_numpy_array(path):
   img_data = tf.io.gfile.GFile(path, 'rb').read()
@@ -32,7 +33,7 @@ def run_inference_for_single_image(model, image):
   return output_dict
   
 listClass = []
-with open('label_map.pbtxt') as file:
+with open(PATH_TO_LABEL_MAP) as file:
   txt = file.read()
   indices = [i.start() for i in re.finditer('name:', txt)]
   for indice in indices:
