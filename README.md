@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Requirements](#requirements)
 * [Project 1: Object Detection using Efficientdet](#project-1---object-detection-using-efficientdet)
+   * [What is EfficientDet ?](#what-is-efficientdet-?)
    * [Training the model](#training-the-model)
    * [Testing locally the model](#testing-locally-the-model)
 * [Project 2: Segmentation using U-Net](#project-2---segmentation-using-u-net)
