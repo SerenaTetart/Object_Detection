@@ -25,7 +25,7 @@ For the inference you need **inference.py** shared in this repository, the direc
 
 *I will assume you have some knowledge in computer vision and CNNs, if not you can skip this part*
 
-EfficientDet is a deep learning model designed for object detection, it achieved state of the art results on COCO dataset, it is both scalable and efficient meaning that it can recognize objects at vastly different scales and need fewer computational performance than the other models.
+EfficientDet is a family of deep learning models designed for object detection, EfficientDet7 achieved state of the art results on COCO dataset, it is both scalable and efficient meaning that it can recognize objects at vastly different scales and need fewer computational performance than the other models.
 
 <p align="center"><a href=https://arxiv.org/pdf/1911.09070v7.pdf><i>link to EfficientDet paper</i></a>
 
@@ -68,7 +68,15 @@ What EfficientDet and BiFPN in particular did is to:
 
 #### Compound Scaling:
 
-Being written...
+The second key improvement was made by EfficientNet (the backbone of EfficientDet) with is **compound scaling**.
+
+Previous work mostly scale up a baseline detector by employing bigger backbone networks (ResNets, AmoebaNet..) using larger input images or stacking more FPN layers. These methods are usually ineffective since they only focus on a single or limited scaling dimensions.
+
+They proposed to use a single compound coefficient to jointly scale up all three dimensions while mantaining a balance between all dimensions of the network.
+
+<p align="center"> <i> Model Scaling </i>
+<img src="https://user-images.githubusercontent.com/65224852/168483264-b0b7c6d8-f2df-4355-b7dc-7dc26897112c.png">
+</p>
 
 #### Final architecture:
 
