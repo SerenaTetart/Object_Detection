@@ -25,7 +25,7 @@ For the inference you need **inference.py** shared in this repository, the direc
 
 EfficientDet is a deep learning model designed for object detection, it achieved state of the art results on COCO dataset, it is both scalable and efficient meaning that it can recognize objects at vastly different scales and need fewer computational performance than the other models.
 
-*<a href=https://arxiv.org/pdf/1911.09070v7.pdf>link to EfficientDet paper</a>*
+<p align="center"><a href=https://arxiv.org/pdf/1911.09070v7.pdf><i>link to EfficientDet paper</i></a>
 
 To understand EfficientDet we need to understand two key improvements made:
 1. Bi-directional Feature Pyramid Network (BiFPN)
