@@ -68,7 +68,7 @@ What EfficientDet and BiFPN in particular did is to:
 
 #### Compound Scaling:
 
-The second key improvement was made by EfficientNet (the backbone of EfficientDet) with is **compound scaling**.
+The second key improvement was made by EfficientNet (the backbone of EfficientDet) with **compound scaling**.
 
 Previous work mostly scale up a baseline detector by employing bigger backbone networks (ResNets, AmoebaNet..) using larger input images or stacking more FPN layers. These methods are usually ineffective since they only focus on a single or limited scaling dimensions.
 
