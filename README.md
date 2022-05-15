@@ -61,9 +61,10 @@ What **Feature Pyramid Network** does is to combine low-resolution, semantically
 
 What EfficientDet and BiFPN in particular did is to:
 
-1. Remove all nodes that have only one input edge. The intuition is that if a node has only one input edge with no feature fusion, then it will have less contribution to the feature network.
-2. Add an extra edge from the original input to the output node if they are at the same level in order to fuse more features without adding much cost
-3. Treat each bidirectional path as one single layer and have multiple of these to enable more high-level feature fusion.
+1. Add bottum-up path aggregation network, conventional top-down FPN is limited by the one-way information flow. (Making it bidirectional)
+2. Remove all nodes that have only one input edge. The intuition is that if a node has only one input edge with no feature fusion, then it will have less contribution to the feature network.
+3. Add an extra edge from the original input to the output node if they are at the same level in order to fuse more features without adding much cost
+4. Treat each bidirectional path as one single layer and have multiple of these to enable more high-level feature fusion.
 
 #### Compound Scaling:
 
