@@ -23,7 +23,7 @@ For the inference you need **inference.py** shared in this repository, the direc
 
 ### What is EfficientDet ?
 
-*I will assume you have some knowledge in computer vision and CNNs, if not you can skip this part*
+*I will assume you have some knowledge in computer vision and CNNs, if not you can skip this part.*
 
 EfficientDet is a family of deep learning models designed for object detection, EfficientDet7 achieved state of the art results on COCO dataset, it is both scalable and efficient meaning that it can recognize objects at vastly different scales and need fewer computational performance than the other models.
 
