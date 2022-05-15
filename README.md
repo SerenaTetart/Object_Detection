@@ -33,7 +33,7 @@ To understand EfficientDet we need to understand two key improvements made:
 
 #### Feature Pyramid Network:
 
-Recognizing objects at different scales is a fundamental challenge in computer vision.
+Recognizing objects at different scale is a fundamental challenge in computer vision.
 
 Different authors have tried to solve this differently, there were three main categories of solutions that existed before the introduction of FPN:
 
