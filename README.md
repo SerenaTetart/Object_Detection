@@ -78,7 +78,13 @@ They proposed to use a single compound coefficient to jointly scale up all three
 <img src="https://user-images.githubusercontent.com/65224852/168483264-b0b7c6d8-f2df-4355-b7dc-7dc26897112c.png">
 </p>
 
-#### Final architecture:
+#### EfficientDet final architecture:
+
+To conclude by combining an EfficientNet backbone, a Bi directionnal Feature Pyramid Network and convolutions we get the final architecture:
+
+<p align="center"> <i> EfficientDet model architecture </i>
+<img src="https://user-images.githubusercontent.com/65224852/168483386-81252296-fc3f-4517-ab22-5b7681f19abf.png">
+</p>
 
 ### Training the model:
 
