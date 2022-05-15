@@ -69,6 +69,8 @@ What EfficientDet and BiFPN in particular did is to:
 
 Being written...
 
+#### Final architecture:
+
 ### Training the model:
 
 1. First open the file ObjectDetection.ipynb of this repository in Colab.
