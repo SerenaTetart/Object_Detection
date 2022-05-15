@@ -65,6 +65,8 @@ What EfficientDet and BiFPN in particular did is to:
 
 #### Compound Scaling:
 
+Being written...
+
 ### Training the model:
 
 1. First open the file ObjectDetection.ipynb of this repository in Colab.
