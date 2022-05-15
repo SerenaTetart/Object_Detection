@@ -20,6 +20,48 @@ For the inference you need **inference.py** shared in this repository, the direc
 
 ## Project 1 - Object Detection using EfficientDet
 
+### What is EfficientDet ?
+
+EfficientDet is a deep learning model designed for object detection, it achieved state of the art results on COCO dataset, it is both scalable and efficient meaning that it can recognize objects at vastly different scales and need fewer computational performance than the other models.
+
+To understand EfficientDet we need to understand two key improvements made:
+1. Bi-directional Feature Pyramid Network (BiFPN)
+2. Compound Scaling
+
+#### Feature Pyramid Network:
+
+Recognizing objects at different scales is a fundamental challenge in computer vision.
+
+Different authors have tried to solve this differently, there were three main categories of solutions that existed before the introduction of FPN:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/168466672-11fabea6-c628-4dd8-99c0-52b89fec237c.png">
+</p>
+
+But they all had some issues:
+
+* **Featurized image pyramid** is too long to train and is infeasible in terms of memory because you need to train a CNN for every scales of an image.
+* **Single feature map** is actually used by Faster RCNN but lose representational capacity for object detection in the first layers with low level features embedding.
+* **Pyramidal feature hierarchy** is used by SSD, it avoids using low level features in the first levels of a CNN by directly using the high level feature at the end of a CNN and then adds several new layers but by doing so it misses the opportunity to reuse the earlier layers which are important for detecting small objects.
+
+What **Feature Pyramid Network** does is to combine low-resolution, semantically strong features in the later layers with high-resolution and semantically weak features in the earlier layers via a top-down pathway and lateral connections. Thus, leading to **Multi-scale feature fusion**.
+
+*It is somehow similar to the architecture of U-Net when you think about it.*
+
+#### Bi-directional Feature Pyramid Network (BiFPN):
+
+<p align="center"> <i> Feature network design and evolution of FPN </i>
+<img src="https://user-images.githubusercontent.com/65224852/168467759-58196966-3795-4e5a-9dd4-5d9ea02f60ed.png">
+</p>
+
+What EfficientDet and BiFPN in particular did is to:
+
+1. Remove all nodes that have only one input edge. The intuition is that if a node has only one input edge with no feature fusion, then it will have less contribution to the feature network.
+2. Add an extra edge from the original input to the output node if they are at the same level in order to fuse more features without adding much cost
+3. Treat each bidirectional path as one single layer and have multiple of these to enable more high-level feature fusion.
+
+#### Compound Scaling:
+
 ### Training the model:
 
 1. First open the file ObjectDetection.ipynb of this repository in Colab.
