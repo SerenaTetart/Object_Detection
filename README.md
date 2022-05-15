@@ -41,7 +41,7 @@ Different authors have tried to solve this differently, there were three main ca
 <img src="https://user-images.githubusercontent.com/65224852/168466672-11fabea6-c628-4dd8-99c0-52b89fec237c.png">
 </p>
 
-But they all had some issues:
+But they all have some issues:
 
 * **Featurized image pyramid** is too long to train and is infeasible in terms of memory because you need to train a CNN for every scales of an image.
 * **Single feature map** is actually used by Faster RCNN but lose representational capacity for object detection in the first layers with low level features embedding.
