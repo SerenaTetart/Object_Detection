@@ -158,7 +158,7 @@ In order to use the model locally there are a few steps:
 
 ## Project 2 - Water Segmentation using U-Net
 
-In this project we will try to identify water on images using a technique called Segmentation.
+In this project we will try to identify water on images thanks to a dataset from Kaggle named <a href="https://www.kaggle.com/datasets/gvclsu/water-segmentation-dataset"> Water Segmentation Dataset </a> using a technique called Segmentation.
 
 In order to do that we need to use an autoencoder which is an unsupervised Artificial Neural Network that attempts to encode the data by compressing it into the lower dimensions (bottleneck layer or code) and then decoding the data to construct the targeted input.
 
