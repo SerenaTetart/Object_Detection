@@ -7,7 +7,7 @@
    * [What is EfficientDet ?](#what-is-efficientdet-)
    * [Training the model](#training-the-model)
    * [Testing locally the model](#testing-locally-the-model)
-* [Project 2: Segmentation using U-Net](#project-2---segmentation-using-u-net)
+* [Project 2: Water Segmentation using U-Net](#project-2---water-segmentation-using-u-net)
 
 ## General info
 In this repository you will learn the basics for detecting objects, keypoints or even making segmentation on images using models such as: EfficientDet, Mobilenet-SSD, U-Net...
@@ -156,4 +156,21 @@ In order to use the model locally there are a few steps:
 <img src="https://user-images.githubusercontent.com/65224852/168441339-06cdfebf-aa49-4af0-a04a-fe126e1b33bb.png">
 </p>
 
-## Project 2 - Segmentation using U-Net
+## Project 2 - Water Segmentation using U-Net
+
+In this project we will try to identify water on images using a technique called Segmentation.
+
+In order to do that we need to use an autoencoder which is an unsupervised Artificial Neural Network that attempts to encode the data by compressing it into the lower dimensions (bottleneck layer or code) and then decoding the data to construct the targeted input.
+
+<p align="center"> <b>Autoencoder Architecture</b> </p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/143266758-c5f101bc-1787-4694-a30c-596f8b5df599.png">
+</p>
+
+Here we are going to use U-Net which is a model generally used in medical Segmentation in order to detect diseases or certain parts of the body in order to operate surgeries.
+
+Below you can see the U-Net architecture:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/65224852/136661667-c1bf2334-38ec-4737-9442-bfde615e1d3a.png"/>
+  <br><a href="https://arxiv.org/pdf/1505.04597v1.pdf">(From 2015 U-Net paper)</a>
+</p>
