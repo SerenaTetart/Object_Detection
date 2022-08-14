@@ -207,6 +207,6 @@ And these are some results I got after running the algorithm:
 <img src="https://user-images.githubusercontent.com/65224852/184554440-49f9b9e1-7b34-409f-b86a-c49591df7ad1.png">
 </p>
 
-The model has some difficulties around the edges of the picture but he has the idea, the reason is I didn't use a pre-trained model and made everything from scratch with a few epochs.
+The model has some difficulties around the edges of the water but he has the idea, the reason is because I didn't use a pre-trained model and made everything from scratch with a few epochs.
 
 ### Testing locally the model:
