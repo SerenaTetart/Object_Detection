@@ -167,7 +167,7 @@ In order to do that we need to use an autoencoder which is an unsupervised Artif
 <img src="https://user-images.githubusercontent.com/65224852/143266758-c5f101bc-1787-4694-a30c-596f8b5df599.png">
 </p>
 
-Here we are going to use U-Net which is a model generally used in medical Segmentation in order to detect diseases or certain parts of the body in order to operate surgeries.
+Here we are going to use U-Net which is a model generally used in medical segmentation in order to detect diseases or certain parts of the body in order to operate surgeries.
 
 Below you can see the U-Net architecture:
 <p align="center">
