@@ -198,4 +198,15 @@ for img in os.listdir(DATASET_PATH+'/Annotations/ADE20K'):
 ```
 5. Run the code and enjoy.
 
+And these are some results I got after running the algorithm:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/184554364-42737472-c94c-45cb-9c0e-647c1dc1db8f.PNG">
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/184554440-49f9b9e1-7b34-409f-b86a-c49591df7ad1.png">
+</p>
+
+The model has some difficulties around the edges of the picture but he has the idea.
+
 ### Testing locally the model:
