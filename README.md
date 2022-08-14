@@ -8,6 +8,9 @@
    * [Training the model](#training-the-model)
    * [Testing locally the model](#testing-locally-the-model)
 * [Project 2: Water Segmentation using U-Net](#project-2---water-segmentation-using-u-net)
+  * [What is Segmentation ?](#what-is-segmentation-)
+  * [Training the model](#training-the-model)
+  * [Testing locally the model](#testing-locally-the-model)
 
 ## General info
 In this repository you will learn the basics for detecting objects, keypoints or even making segmentation on images using models such as: EfficientDet, Mobilenet-SSD, U-Net...
@@ -158,19 +161,29 @@ In order to use the model locally there are a few steps:
 
 ## Project 2 - Water Segmentation using U-Net
 
+### What is segmentation ?
+
 In this project we will try to identify water on images thanks to a dataset from Kaggle named <a href="https://www.kaggle.com/datasets/gvclsu/water-segmentation-dataset"> Water Segmentation Dataset </a> using a technique called Segmentation.
 
-In order to do that we need to use an autoencoder which is an unsupervised Artificial Neural Network that attempts to encode the data by compressing it into the lower dimensions (bottleneck layer or code) and then decoding the data to construct the targeted input.
+Segmentation is made with the use of an autoencoder which is an unsupervised Artificial Neural Network that attempts to encode the data by compressing it into the lower dimensions (bottleneck layer or code) and then decode the data to construct the targeted mask.
 
-<p align="center"> <b>Autoencoder Architecture</b> </p>
+A mask is an image made of numbers or colors corresponding to the different classes present in the image.
+
+<p align="center"> <b>Exemple of mask</b> </p>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65224852/143266758-c5f101bc-1787-4694-a30c-596f8b5df599.png">
+<img src="https://user-images.githubusercontent.com/65224852/184553362-a974b54f-bf3b-4292-a739-ad82bc9a11f6.png">
+<img src="https://user-images.githubusercontent.com/65224852/184553212-96e977a6-1bb6-4f97-b628-95ecb05420dd.png">
 </p>
 
-Here we are going to use U-Net which is a model generally used in medical segmentation in order to detect diseases or certain parts of the body in order to operate surgeries.
+Here we are going to use U-Net as our autoencoder which is a model generally used in medical segmentation in order to detect diseases or certain parts of the body in order to operate surgeries.
 
 Below you can see the U-Net architecture:
+<p align="center"> <b>U-Net architecture</b> </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/65224852/136661667-c1bf2334-38ec-4737-9442-bfde615e1d3a.png"/>
-  <br><a href="https://arxiv.org/pdf/1505.04597v1.pdf">(From 2015 U-Net paper)</a>
+<img src="https://user-images.githubusercontent.com/65224852/136661667-c1bf2334-38ec-4737-9442-bfde615e1d3a.png"/>
+<br><a href="https://arxiv.org/pdf/1505.04597v1.pdf">(From 2015 U-Net paper)</a>
 </p>
+
+### Training the model:
+
+### Testing locally the model:
