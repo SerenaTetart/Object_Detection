@@ -184,6 +184,8 @@ Below you can see the U-Net architecture:
 <br><a href="https://arxiv.org/pdf/1505.04597v1.pdf">(From 2015 U-Net paper)</a>
 </p>
 
+*In addition, if you want to improve the performances of your model you can add a pretrained model such as ResNet50 or VGG19 as the encoder at the start of your U-Net model and then attach decoder at the end*
+
 ### Training the model:
 
 ### Testing locally the model:
