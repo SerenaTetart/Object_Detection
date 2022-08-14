@@ -163,7 +163,7 @@ In order to use the model locally there are a few steps:
 
 ### What is segmentation ?
 
-In this project we will try to identify water on images thanks to a dataset from Kaggle named <a href="https://www.kaggle.com/datasets/gvclsu/water-segmentation-dataset"> Water Segmentation Dataset </a> using a technique called Segmentation.
+In this project we will try to identify water on images thanks to a  <a href="https://www.kaggle.com/datasets/gvclsu/water-segmentation-dataset"> dataset from Kaggle </a> using a technique called Segmentation.
 
 Segmentation is made with the use of an autoencoder which is an unsupervised Artificial Neural Network that attempts to encode the data by compressing it into the lower dimensions (bottleneck layer or code) and then decode the data to construct the targeted mask.
 
