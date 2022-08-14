@@ -9,8 +9,8 @@
    * [Testing locally the model](#testing-locally-the-model)
 * [Project 2: Water Segmentation using U-Net](#project-2---water-segmentation-using-u-net)
   * [What is Segmentation ?](#what-is-segmentation-)
-  * [Training the model](#training-the-model)
-  * [Testing locally the model](#testing-locally-the-model)
+  * [Training the model](#training-the-model-1)
+  * [Testing locally the model](#testing-locally-the-model-1)
 
 ## General info
 In this repository you will learn the basics for detecting objects, keypoints or even making segmentation on images using models such as: EfficientDet, Mobilenet-SSD, U-Net...
