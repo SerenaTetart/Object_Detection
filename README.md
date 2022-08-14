@@ -188,4 +188,14 @@ Below you can see the U-Net architecture:
 
 ### Training the model:
 
+1. First open the file Segmentation.ipynb of this repository in Colab.
+2. Then you need images and masks *(jpg or png or other type of images...)*.
+3. Once you have them simply upload them to your Drive.
+4. Finally modify the DATASET_PATH variable and the different paths where the dataset is made.
+``` python
+for img in os.listdir(DATASET_PATH+'/Annotations/ADE20K'):
+  for img2 in os.listdir(DATASET_PATH+'/JPEGImages/ADE20K'):
+```
+5. Run the code and enjoy.
+
 ### Testing locally the model:
