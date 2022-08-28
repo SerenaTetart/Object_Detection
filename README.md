@@ -92,7 +92,7 @@ To conclude by combining an EfficientNet backbone, a Bi directionnal Feature Pyr
 ### Training the model:
 
 1. First open the file ObjectDetection.ipynb of this repository in Colab.
-2. Then you need images and annotations in Pascal VOC format (xml files). *(You can use <a href=https://github.com/Serenalyw/FastAnnotation>FastAnnotations</a>, a framework that I made :smile:)*
+2. Then you need images in JPG format and annotations in Pascal VOC format (xml files). *(You can use <a href=https://github.com/Serenalyw/FastAnnotation>FastAnnotations</a>, a framework that I made :smile:)*
 3. Once you have them simply put them in a zip file named data.zip, don't bother making a train/test or annotation folder everything will be handled automatically to make the process easier.
 4. And now you can upload data.zip to your Drive.
 5. Finally just run the code, it will train an EfficientDet0 model on the data you sent to Drive.
