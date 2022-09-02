@@ -11,6 +11,10 @@
   * [What is Segmentation ?](#what-is-segmentation-)
   * [Training the model](#training-the-model-1)
   * [Testing locally the model](#testing-locally-the-model-1)
+* [Project 3: Optical Character Recognition](#project-3---optical-character-recognition)
+  * [What is OCR ?](#what-is-ocr-)
+  * [Training the model](#training-the-model-2)
+  * [Testing locally the model](#testing-locally-the-model-2)
 
 ## General info
 In this repository you will learn the basics for detecting objects, keypoints or even making segmentation on images using models such as: EfficientDet, Mobilenet-SSD, U-Net...
@@ -208,5 +212,14 @@ And these are some results I got after running the algorithm:
 </p>
 
 The model has some difficulties around the edges of the water but he has the idea, the reason is because I didn't use a pre-trained model and made everything from scratch with a few epochs.
+
+### Testing locally the model:
+
+
+## Project 3 - Optical Character Recognition
+
+### What is OCR ?
+
+### Training the model:
 
 ### Testing locally the model:
