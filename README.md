@@ -215,6 +215,25 @@ The model has some difficulties around the edges of the water but he has the ide
 
 ### Testing locally the model:
 
+Just like the object detection above, we need to repeat the same steps:
+
+#### I- Download the trained model by running this code in the notebook in colab:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/189476421-243e6ccb-6411-4c5e-a202-c78a089d692b.png">
+</p>
+
+#### II - Copy and paste where you want the files:
+
+<p align="center"> <i>this is where your files are downloaded</i>
+<img src="https://user-images.githubusercontent.com/65224852/189476423-3d2dc32d-bd45-4817-bc8e-66801937904d.png">
+</p>
+
+#### III - Modify the PATH variables and run inference_segmentation.py or your custom code and enjoy:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65224852/189476424-a21eff7f-b0c8-43c3-b5ab-26d7a9b27fb6.png">
+</p>
 
 ## Project 3 - Optical Character Recognition
 
