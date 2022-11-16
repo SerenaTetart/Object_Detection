@@ -11,8 +11,8 @@
   * [What is Segmentation ?](#what-is-segmentation-)
   * [Training the model](#training-the-model-1)
   * [Testing locally the model](#testing-locally-the-model-1)
-* [Project 3: Optical Character Recognition](#project-3---optical-character-recognition)
-  * [What is OCR ?](#what-is-ocr-)
+* [Project 3: Face key-point recognition using CNN](#project-3---face-key-point-recognition-using-cnn)
+  * [How does it work ?](#how-does-it-work-)
   * [Training the model](#training-the-model-2)
   * [Testing locally the model](#testing-locally-the-model-2)
 
