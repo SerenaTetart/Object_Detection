@@ -235,9 +235,9 @@ Just like the object detection above, we need to repeat the same steps:
 <img src="https://user-images.githubusercontent.com/65224852/189476424-a21eff7f-b0c8-43c3-b5ab-26d7a9b27fb6.png">
 </p>
 
-## Project 3 - Optical Character Recognition
+## Project 3 - Face key-point recognition using CNN
 
-### What is OCR ?
+### How does it work ?
 
 ### Training the model:
 
