@@ -241,11 +241,11 @@ Just like the object detection above, we need to repeat the same steps:
 
 Key points can be used for a variety of tasks:
 * Apply a filter on a face
-* Detect emotions on a person's face
+* Detect emotions on a face
 * Identify someone based on their traits
-* Identify what action a person is doing... (such as sport, or thiefs in a supermarket)
+* Identify what action a person is doing... (Used for sports, or thiefs in a supermarket)
 
-In order to achieve that we need a neural network composed of a CNN and fully connected layers that predict (x, y) coordinates of each key-points, for instance if we have 5 key-points we'll need a linear layer of 10 outputs *(x1, y1, x2, y2, ..., x10, y10)*.
+In order to achieve that we need a neural network composed of a CNN and fully connected layers that predict (x, y) coordinates for each key-points, for instance if we have 5 key-points we'll need a linear layer of 10 outputs *(x1, y1, x2, y2, ..., x5, y5)*.
 
 <p align="center"> <b>Neural network architecture (CNN + fully connected layers)</b>
 <img src="https://user-images.githubusercontent.com/65224852/208777742-9efea372-5af4-4c87-85e9-06eb1dd11a7a.png">
