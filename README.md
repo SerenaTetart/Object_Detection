@@ -28,6 +28,9 @@ For the inference you need **inference.py** shared in this repository, the direc
 
 ## Project 1 - Object Detection using EfficientDet
 
+<details>
+<summary>What is EfficientDet ?</summary>
+
 ### What is EfficientDet ?
 
 *I will assume you have some knowledge in computer vision and CNNs, if not you can skip this part.*
@@ -92,6 +95,8 @@ To conclude by combining an EfficientNet backbone, a Bi directionnal Feature Pyr
 <p align="center"> <i> EfficientDet model architecture </i>
 <img src="https://user-images.githubusercontent.com/65224852/168483386-81252296-fc3f-4517-ab22-5b7681f19abf.png">
 </p>
+
+</details>
 
 ### Training the model:
 
