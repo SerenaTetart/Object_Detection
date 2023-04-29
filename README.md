@@ -170,6 +170,9 @@ In order to use the model locally there are a few steps:
 
 ## Project 2 - Water Segmentation using U-Net
 
+<details>
+<summary>What is segmentation ?</summary>
+  
 ### What is segmentation ?
 
 In this project we will try to identify water on images thanks to a  <a href="https://www.kaggle.com/datasets/gvclsu/water-segmentation-dataset"> dataset from Kaggle </a> using a technique called Segmentation.
@@ -195,6 +198,8 @@ Below you can see the U-Net architecture:
 
 *In addition, if you want to improve the performances of your model you can add a pretrained model such as ResNet50 or VGG19 as the encoder at the start of your U-Net model and then attach decoder at the end*
 
+</details>
+  
 ### Training the model:
 
 1. First open the file Segmentation.ipynb of this repository in Colab.
@@ -242,6 +247,9 @@ Just like the object detection above, we need to repeat the same steps:
 
 ## Project 3 - Face key-point recognition using CNN
 
+<details>
+<summary>How does it work ?</summary>
+
 ### How does it work ?
 
 Key points can be used for a variety of tasks:
@@ -256,6 +264,8 @@ In order to achieve that we need a neural network composed of a CNN and fully co
 <img src="https://user-images.githubusercontent.com/65224852/208777742-9efea372-5af4-4c87-85e9-06eb1dd11a7a.png">
 </p>
 
+</details>
+  
 ### Training the model:
 
 * First open the file FacekeyPoint.ipynb of this repository in Colab.
